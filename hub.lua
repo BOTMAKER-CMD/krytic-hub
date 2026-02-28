@@ -1,20 +1,6 @@
 -- KRYTIC HUB FREE v1.5 | Blox Fruits 2nd/3rd Sea (Lv700+) | Anti-Leak Protected
 -- Pirate = ALL Kill | Marine = Pirates Only | Live Ping/Factions/Sea | Auto Hop | Cool Load
 copyright krytic services ltd.2026
-
-local OFFICIAL_RAW_URL = "https://raw.githubusercontent.com/BOTMAKER-CMD/krytic-hub/refs/heads/main/hub.lua" 
-
-local http = game:GetService("HttpService")
-local success, sourceCode = pcall(function()
-    return http:GetAsync(OFFICIAL_RAW_URL)
-end)
-
-if not success or not sourceCode:find("KRYTIC HUB FREE v1.5") or not sourceCode:find("-- Official Source Only") then
-    game.Players.LocalPlayer:Kick("Anti-Leak Triggered\nLeaked / Tampered / Renamed script detected\nUse official link only: github.com/YOUR_USERNAME/krytic-hub")
-    return
-end
-
-
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
