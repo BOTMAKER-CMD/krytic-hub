@@ -2,7 +2,7 @@
 -- Pirate = ALL Kill | Marine = Pirates Only | Live Ping/Factions/Sea | Auto Hop | Cool Load
 copyright krytic services ltd.2026
 
-local OFFICIAL_RAW_URL = "https://raw.githubusercontent.com/BOTMAKER-CMD/krytic-hub/main/hub.lua" 
+local OFFICIAL_RAW_URL = "https://raw.githubusercontent.com/BOTMAKER-CMD/krytic-hub/refs/heads/main/hub.lua" 
 
 local http = game:GetService("HttpService")
 local success, sourceCode = pcall(function()
